@@ -14,7 +14,7 @@ cd annotated-s4-finance
 python -m s4.train dataset=crypto layer=s4 train.epochs=100 model.d_model=256 model.layer.N=64
 ```
 
-Metrics
+Metrics -- 93% accuracy prediction on 64 layers on 64 layers
 
 ```
 =>> Epoch 100 Metrics ===
